@@ -8,6 +8,7 @@ import { Industries } from '@/components/sections/Industries';
 import { TrustSection } from '@/components/sections/TrustSection';
 import { CTASection } from '@/components/sections/CTASection';
 import { Footer } from '@/components/sections/Footer';
+import { Chatbot } from '@/components/ui/Chatbot';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Industries />
       <CTASection />
       <Footer />
+      <Chatbot />
     </main>
   );
 }
